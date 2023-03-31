@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="divs">
+    <h1>Now your results</h1>
+
+    <h3>Your word: <%=@user_word%></h3>
+
+    <% if @word_found == true %>
+      <p><strong>"Congratulations!</strong> <%= @user_word %> is a valid English Word!😎😎😎" </p>
+    <% else @include == false %>
+      <p> "Sorry but <strong><%= @user_word %></strong> does not seem to be a valid English word..🙁🙁🙁"</p>
+    <% end %>
+
+    <h3>Message: well done</h3>
+
+    <p><%= link_to "Play again", new_path, class: 'btn btn-primary' %></p>
+  </div>
+</div>
