@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
 .divs {
   width: 1050px;
   margin: 30px 30px auto;
   padding: 60px;
   border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px rgba(75, 73, 73, 0.212);
+  background: rgb(187, 185, 185);
 }
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
 
 body {
   font-family: Roboto;
